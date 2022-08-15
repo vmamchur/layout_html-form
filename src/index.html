@@ -17,6 +17,7 @@
     >
       <fieldset class="group">
         <legend>Personal information</legend>
+
         <label class="form-field">
           Surname:
           <input
@@ -26,6 +27,7 @@
             required
           >
         </label>
+
         <label class="form-field">
           Name:
           <input
@@ -35,6 +37,7 @@
             required
           >
         </label>
+
         <label class="form-field">
           How old are You?
           <input
@@ -46,6 +49,7 @@
             required
           >
         </label>
+
         <label class="form-field">
           Full date of birth:
           <input
@@ -54,6 +58,7 @@
             required
           >
         </label>
+
         <label class="terms">
           I accept the term of the agreement
           <input
@@ -63,8 +68,10 @@
           >
         </label>
       </fieldset>
+
       <fieldset class="group">
         <legend>Registration</legend>
+
         <label class="form-field">
           E-mail:
           <input
@@ -75,6 +82,7 @@
             required
           >
         </label>
+
         <label class="form-field">
           Password:
           <input
@@ -87,19 +95,28 @@
           >
         </label>
       </fieldset>
+
       <fieldset class="group">
         <legend>An interesting fact about you!</legend>
+
         <label class="form-field">
           Do you love cats?
-          <input
+          
+          <label>
+            <input
             type="radio"
             name="cats"
           > Yes
-          <input
+          </label>
+
+          <label>
+            <input
             type="radio"
             name="cats"
           > No
+          </label>
         </label>
+
         <label class="form-field">
           What is your favorite color?
           <input
@@ -108,6 +125,7 @@
             required
           >
         </label>
+
         <label class="form-field">
           What time do you go to bed?
           <input
@@ -115,17 +133,19 @@
             name="time"
           >
         </label>
+
         <label class="form-field">
           What are your favorite brand of cars?
           <select
             name="cars"
             multiple
           >
-            <option>BMW</option>
-            <option>Audi</option>
-            <option>Lada</option>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="lada">Lada</option>
           </select>
         </label>
+
         <label class="form-field">
           How do you rate our work?
           <input
@@ -134,8 +154,10 @@
           >
         </label>
       </fieldset>
+
       <fieldset class="group">
         <legend>Additional info</legend>
+
         <label class="form-field">
           Comments:
           <textarea
@@ -144,6 +166,7 @@
             autocomplete="off"
           ></textarea>
         </label>
+
         <label class="form-field">
           Would you recommend us?
           <select name="recommend">
@@ -152,6 +175,7 @@
           </select>
         </label>
       </fieldset>
+
       <button type="submit">Submit</button>
     </form>
     <script type="text/javascript" src="./main.js"></script>
